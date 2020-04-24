@@ -1,0 +1,8 @@
+listen:
+    host: 127.0.0.1
+  
+  storage:
+    dir: /workdir/notebooks
+    mounts:
+      examples:
+        dir: examples
