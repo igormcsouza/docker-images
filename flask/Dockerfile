@@ -1,7 +1,6 @@
-FROM tensorflow/tensorflow:2.2.0-gpu-jupyter
-
-RUN pip install --upgrade pip
+FROM python:3.8
 
 COPY requirements.txt /opt/requirements.txt
 RUN pip install -r /opt/requirements.txt
 
+CMD [ "/bin/bash" ]
